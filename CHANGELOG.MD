@@ -1,4 +1,51 @@
 # 更新日志
+### 4.6.7 | 2022.07.17
+- 音乐是否可用接口更新 #1544
+
+- 获取精品歌单接口更新描述 #1544
+
+### 4.6.6 | 2022.06.20
+- npx 方式运行完善和增加文档说明
+
+### 4.6.5 | 2022.06.19
+- 修复npx使用路径错误
+
+### 4.6.4 | 2022.06.15
+- 修复歌单收藏/取消收藏歌曲接口报错问题 #1551
+
+### 4.6.3 | 2022.06.15
+- 修复 npm 包文件缺失的问题
+
+### 4.6.2 | 2022.05.30
+- 修复测试不通过的问题
+
+### 4.6.1 | 2022.05.29
+- 修复请求接口提示需要验证的问题,增加游客登录接口,服务启动更新游客cookie
+
+### 4.6.0 | 2022.05.29
+- 修复请求接口提示需要验证的问题 [#1541](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1541) 
+
+### 4.5.14 | 2022.05.06
+- 修复获取歌单所有歌曲接口分页问题 [#1524](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1524)
+
+- 增加支持罗马音歌词返回 [#1523](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1523)
+
+### 4.5.12 | 2022.04.15
+- 新增`黑胶时光机`接口 [#1511](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1511)
+
+### 4.5.11 | 2022.04.06
+- 修复云盘接口mimetype获取错误 [#1503](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1503)
+
+### 4.5.10 | 2022.03.28
+- 修复了若干问题
+
+- 新增`歌单更新播放量`接口
+
+### 4.5.9 | 2022.03.20
+- 修复云盘上传接口部分文件名格式上传失败的问题
+
+- 新增 `/inner/version` 接口，用于获取当前版本号
+
 ### 4.5.8 | 2022.03.05
 - 新增歌手粉丝数量接口[#1485](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1485)
 

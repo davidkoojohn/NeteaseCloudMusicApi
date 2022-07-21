@@ -1,12 +1,12 @@
-// 相似歌手
-const config = require('../util/config.json')
+// 歌单打卡
+
 module.exports = (query, request) => {
   const data = {
-    artistid: query.id,
+    id: query.id,
   }
   return request(
     'POST',
-    `https://music.163.com/weapi/discovery/simiArtist`,
+    `https://music.163.com/api/playlist/update/playcount`,
     data,
     {
       crypto: 'weapi',
